@@ -56,3 +56,10 @@ height: 300px;
     justify-content: flex-end;
     padding: auto;
 }
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-size:large;
+}
