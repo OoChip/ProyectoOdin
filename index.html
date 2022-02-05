@@ -5,55 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin HomeWork</title>
+    <link rel= "stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="nav-container">
-            <img class="nav-logo" src="./img/baby5.jpg" alt="Logo">
-            <nav class="nav-barra">
+        <div class="nave-container">
+            <img class="nave-logo" src="./img/baby5.jpg" alt="Logo">
+            <nav class="nave-barra">
                 <ul>
-                    <il><a href="#Galeria">Galeria</a></il>
-                    <il><a href="#Poema">Poema</a></il>
-                    <il><a href="#Newsletter">Newsletter</a></il>
+                    <il><a href="#galeria">Galeria</a></il>
+                    <il><a href="#poema">Poema</a></il>
+                    <il><a href="#newsletter">Newsletter</a></il>
                 </ul>
             </nav>
         </div>
 
-        <div class="header-container">
+        <div class="header-container" id="header">
             <div class="header-a">
-                <div><h2>Bebes hermosos</h2></div>
-                <div><p>Bebes: el futuro y esperanza de la raza humana.</p></div>
+                <div><h1>Bebes hermosos.</h1></div>
+                <div><p>...futuro y esperanza de la humanidad...</p></div>
                 <div><button><a href="#">Newsletter</a></button></div>
             </div>
             <div class="header-b">
-                <img src="./img/baby1.jpg" alt="Bebe hermoso">
+                <img src="./img/baby5.jpg" alt="Bebe hermoso">
             </div>
         </div>        
     </header>
-    
-    <section>
-        <p>Galeria</p>
-            <img src="./img/baby1.jpg" alt="Bebe 1">
-            <p>Vista frontal</p>
-            <img src="./img/baby2.jpg" alt="Bebe 2">
-            <p>Vista lateral</p>
-            <img src="./img/baby3.jpg" alt="Vista en picado tatoo">
-            <p>Vista en picado</p>
-            <img src="./img/baby4.jpg" alt="Vista contrapicado tatoo">
-            <p>Vista en contrapicado</p>
+
+    <br> <br> <br> <br> 
+
+     <section id="galeria">
+            <div class="galery-container">
+                <div class="galery-element">
+                    <img src="./img/baby1.jpg" alt="bebe 1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ratione molestiae eum accusamus iste laborum provident accusantium omnis nobis facilis quaerat praesentium minus amet nisi, numquam voluptates ullam aliquam doloremque.</p>
+                </div>
+                <div class="galery-element">
+                    <img src="./img/baby2.jpg" alt="bebe 2">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque repudiandae sit unde necessitatibus quasi minima similique architecto obcaecati id dolorum enim, eligendi laudantium dignissimos. Repellendus atque fuga autem molestias officia?</p>
+                </div>
+                <div class="galery-element">
+                    <img src="./img/baby3.jpg" alt="bebe 3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores nulla necessitatibus corporis ad quaerat aliquam molestiae ratione eum, pariatur aspernatur incidunt quo magni consectetur provident amet velit ducimus maiores.</p>
+                </div>
+                <div class="galery-element">
+                    <img src="img/baby4.jpg" alt="bebe 4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam asperiores tempora nulla accusantium tempore, explicabo ratione obcaecati similique quo aliquam consequatur autem quisquam eos a. Repudiandae saepe praesentium quae esse.</p>
+                </div>
+            </div>
     </section>
 
-    <section>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+    <section id="poema">
         <p>Y conoceréis la verdad, y la verdad os hará libres.</p>
         <p>Juan 8:32</p>
     </section>
 
-    <section>
-        <h4>Suscribete al Newsletter </h4>
-        <input type="email" name="email" id="email">
-        <button type="submit">Suscribete</button>
+    <section id="newsletter">
+            <p>Suscribete al Newsletter   <p>
+            <input type="email" name="email" id="email">
+            <button type="submit">Suscribete</button>
+                
     </section>
 
     <footer>

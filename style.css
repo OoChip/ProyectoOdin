@@ -1,17 +1,58 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
 img {
 width: 300px;
-height: auto;
+height: 300px;
 }
 
-.nav-container {
+.nave-container {
  display: flex;
+ justify-content: space-around;
+ background-color: aquamarine;
 }
 
-.nav-logo {
+.nave-container .nave-logo {
     width: 5%;
     height: 5%
 }
     
-.nav-barra{ 
-    align-self: flex-end;
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+.galery-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.galery-element {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 20vw;
+    height: 30vh;
+}
+
+.galery-element img {
+    width: 20vw;
+    height: 30vh;
+}
+
+#poema {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: flex-end;
+    padding: auto;
 }
