@@ -1,0 +1,17 @@
+img {
+width: 300px;
+height: auto;
+}
+
+.nav-container {
+ display: flex;
+}
+
+.nav-logo {
+    width: 5%;
+    height: 5%
+}
+    
+.nav-barra{ 
+    align-self: flex-end;
+}
