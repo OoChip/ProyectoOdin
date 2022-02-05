@@ -11,7 +11,9 @@ height: 300px;
 .nave-container {
  display: flex;
  justify-content: space-around;
- background-color: aquamarine;
+ background-color: #1f2937;
+ font-size: 18px;
+ color: e5e7eb;
 }
 
 .nave-container .nave-logo {
@@ -22,8 +24,34 @@ height: 300px;
 .header-container {
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: #1f2937;
 }
+
+.hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+#hero-button {
+    background-color: #3882f6;
+}
+
+#ramdom-info {
+    text-align: center;
+    margin: 2vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
 
 .galery-container {
     display: flex;
@@ -46,9 +74,13 @@ height: 300px;
 
 #poema {
     display: flex;
-    background-color: aqua;
+    background-color: #e5e7eb;
     flex-direction: column;
     align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 #newsletter {
@@ -58,8 +90,9 @@ height: 300px;
 }
 
 footer {
-    background-color: black;
+    background-color: #1f2937;
     color: antiquewhite;
     text-align: center;
     font-size:large;
 }
+
